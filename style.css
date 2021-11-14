@@ -3,16 +3,18 @@ html {
 }
 
 #title {
-  color: #f2c84b;
+  color: #bf7b3f;
   text-align: center;
+  font-family: "Are You Serious", cursive;
+  font-size: 4rem;
+  font-weight: 200;
 }
 
 #warning {
   color: white;
   text-align: center;
   font-family: "Special Elite", cursive;
-  font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 #play {
@@ -43,12 +45,13 @@ button {
 }
 
 #quote {
-  height: 100px;
+  height: 150px;
   line-height: 50px;
-  color: white;
+  color: #bf7b3f;
   margin-top: 4rem;
   text-align: center;
   font-size: 1.2rem;
+  font-family: "Special Elite", cursive;
   border: 2px solid black;
   border-radius: 10px;
 }
