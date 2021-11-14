@@ -48,7 +48,7 @@ const combineQuote = (array1, array2, array3) => {
   console.log(`${quote} -${speaker} to ${listener}, ${book}`);
   document.getElementById(
     "quote"
-  ).innerHTML = `${quote} -${speaker} to ${listener}, ${book}`;
+  ).innerHTML = `"${quote}" -${speaker} to ${listener}, ${book}`;
 };
 
 //combineQuote(quote, speaker, book);
