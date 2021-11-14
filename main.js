@@ -46,6 +46,9 @@ const combineQuote = (array1, array2, array3) => {
   let listener = array2[Math.floor(Math.random() * array2.length)];
   let book = array3[Math.floor(Math.random() * array3.length)];
   console.log(`${quote} -${speaker} to ${listener}, ${book}`);
+  document.getElementById(
+    "quote"
+  ).innerHTML = `${quote} -${speaker} to ${listener}, ${book}`;
 };
 
-combineQuote(quote, speaker, book);
+//combineQuote(quote, speaker, book);
