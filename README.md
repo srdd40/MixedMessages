@@ -1,6 +1,12 @@
-# Mixed Messages
+# MixedMessages
 
 ## Description
 
-This project is a simple JavaScript Program. It runs on the terminal and shows a random message everytime it is run.  
-The Messages shown are Quotes from the Harry Potter Universe.
+This is a simple JavaScript Program which runs in the terminal.  
+It logs a Harry Potter Quote to the terminal.  
+The Combination of quote, characters involved and book/movie may not be as you remember them.
+
+## How to run
+
+You can run the program with node.
+Command: node main.js
