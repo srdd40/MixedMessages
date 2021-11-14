@@ -1,0 +1,54 @@
+html {
+  background-color: #25594b;
+}
+
+#title {
+  color: #f2c84b;
+  text-align: center;
+}
+
+#warning {
+  color: white;
+  text-align: center;
+  font-family: "Special Elite", cursive;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#play {
+  font-size: 5rem;
+  border-radius: 50px;
+  border-style: hidden;
+  cursor: pointer;
+  background-color: #25594b;
+}
+
+.container {
+  height: 50px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button {
+  text-align: center;
+}
+
+#quote {
+  height: 100px;
+  line-height: 50px;
+  color: white;
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 2px solid black;
+  border-radius: 10px;
+}
